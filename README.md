@@ -29,3 +29,8 @@
 
 ## References
 * [TAR Files](http://blueonyx.precisionweb.net/BlueOnyx/TAR/)
+* [Install BlueOnyx in Proxmox OpenVZ CentOS VPS](http://saralinux.blogspot.in/2014/01/install-blueonyx.html)
+* [Installing a VPS from a BlueOnyx Template](http://www.blog.paranoidpenguin.net/2011/11/installing-a-blueonyx-openvz-template-with-proxmox-ve/)
+* [French Wiki Page on BlueOnyx Install](http://wiki.kogite.fr/index.php/Proxmox_Openvz)
+* [Forum Post on BX Installation](http://permalink.gmane.org/gmane.linux.devices.blueonyx.user/8957)
+* [Upgrading to BX520.R](https://www.virtbiz.com/support/index.php?/Knowledgebase/Article/View/125/3/upgrade-to-blueonyx-5208r)
