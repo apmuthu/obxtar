@@ -18,15 +18,15 @@ RewriteCond %{HTTP:Range} bytes=0-.* [NC]
 RewriteRule .? http://%{SERVER_NAME}/ [R=302,L]
 ````
 
-### BX5106R 
+### BX5106R / PHP 5.1.6
 *  Based on CentOS 5.8 (will upgrade to CentOS v5.10)
 *  32 bit
 
-### BX5107R
+### BX5107R / PHP 5.3.3
 * Based on CentOS 6.x / Scientific Linux 6 / RHEL 6
 * 32 bit
 
-### BX5108R
+### BX5108R / PHP 5.3.3
 * Based on CentOS 6.x / Scientific Linux 6 / RHEL 6
 * 64 bit
 
@@ -34,7 +34,6 @@ RewriteRule .? http://%{SERVER_NAME}/ [R=302,L]
 * All tar files here contain an install.sh file that needs to be executed in a minimal CentOS (or SL or RHEL) install of appropriate version listed above
 * All installs can be done on physical machines or OpenVZ containers
 * All initial "root" passwords should be "blueonyx"
-* All BX series above have default PHP 5.1.6
 
 ## References
 * [TAR Files](http://blueonyx.precisionweb.net/BlueOnyx/TAR/)
