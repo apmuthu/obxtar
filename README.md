@@ -30,7 +30,7 @@ RewriteRule .? http://%{SERVER_NAME}/ [R=302,L]
 * Based on CentOS 6.x / Scientific Linux 6 / RHEL 6
 * 64 bit
 
-### BX5108R / PHP 5.3.3 (Experimental)
+### BX5208R / PHP 5.3.3 (Experimental)
 * Based on CentOS 6.x / Scientific Linux 6 / RHEL 6
 * 64 bit
 * Admserv runs on Chorizo theme
@@ -43,7 +43,7 @@ RewriteRule .? http://%{SERVER_NAME}/ [R=302,L]
 * All initial "root" passwords should be "blueonyx"
 
 ## References
-* [TAR Files](http://blueonyx.precisionweb.net/BlueOnyx/TAR/)
+* [TAR Files](http://blueonyx.precisionweb.net/BlueOnyx/TAR/) | [ISO Files](http://blueonyx.precisionweb.net/BlueOnyx/ISO/)
 * [Install BlueOnyx in Proxmox OpenVZ CentOS VPS](http://saralinux.blogspot.in/2014/01/install-blueonyx.html)
 * [Installing a VPS from a BlueOnyx Template](http://www.blog.paranoidpenguin.net/2011/11/installing-a-blueonyx-openvz-template-with-proxmox-ve/)
 * [French Wiki Page on BlueOnyx Install](http://wiki.kogite.fr/index.php/Proxmox_Openvz)
