@@ -11,7 +11,7 @@
 * NuOnce CD v4.8 no longer supported
 * [BlueQuartz PKGs](http://mirror.data-hotel.biz/pub01/CobaltSoftwares/BlueQuartz/Data-BlueOnyx/BQ-Pkgs/)
 * [Security Advisory and fix](http://www.blueonyx.it/index.php?mact=News,cntnt01,detail,0&cntnt01articleid=95&cntnt01returnid=15)
-** requires the insertion of the following lines into all /etc/httpd/conf/vhosts/site*.include files and /etc/httpd/conf/vhosts/preview within the VirtualHost tags:
+* Requires the insertion of the following lines into all /etc/httpd/conf/vhosts/site*.include files and /etc/httpd/conf/vhosts/preview within the VirtualHost tags:
 ````
 RewriteEngine On
 RewriteCond %{HTTP:Range} bytes=0-.* [NC]
@@ -19,8 +19,8 @@ RewriteRule .? http://%{SERVER_NAME}/ [R=302,L]
 ````
 
 ### BX5106R / PHP 5.1.6
-*  Based on CentOS 5.8 (will upgrade to CentOS v5.10)
-*  32 bit
+* Based on CentOS 5.8 (will upgrade to CentOS v5.10)
+* 32 bit
 
 ### BX5107R / PHP 5.3.3
 * Based on CentOS 6.x / Scientific Linux 6 / RHEL 6
