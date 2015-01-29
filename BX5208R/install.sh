@@ -174,7 +174,7 @@ if [ -f /etc/redhat-release ] && [ "`rpm -q --qf=%{version} redhat-release|cut -
   fi 
 fi; 
 
-if [ -f /etc/redhat-release ] && [ $PLTF != "5108" ]; then
+if [ -f /etc/redhat-release ] && [ $PLTF != "5208" ]; then
   /bin/echo "***********"
   /bin/echo "** ERROR **"
   /bin/echo "***********"
