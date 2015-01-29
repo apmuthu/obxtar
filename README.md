@@ -48,4 +48,8 @@ RewriteRule .? http://%{SERVER_NAME}/ [R=302,L]
 * [Installing a VPS from a BlueOnyx Template](http://www.blog.paranoidpenguin.net/2011/11/installing-a-blueonyx-openvz-template-with-proxmox-ve/)
 * [French Wiki Page on BlueOnyx Install](http://wiki.kogite.fr/index.php/Proxmox_Openvz)
 * [Forum Post on BX Installation](http://permalink.gmane.org/gmane.linux.devices.blueonyx.user/8957)
-
+* [Forum Post on Multiple Gateways in one VPS using global IP on veth](http://forum.proxmox.com/threads/1733-Physical-Host-with-2-NICs-Each-with-Different-Gateways?p=9287#post9287)
+* [OpenWebMail on BlueOnyx](http://coding.infoconex.com/post/2011/10/10/Installing-OpenWebmail-on-BlueOnyx-server)
+* [Spam-Milter on BlueOnyx](http://simonecapra.com/2014/03/installing-spamass-milter-blueonyx/)
+* [Step By Step install Mailscanner Solution](https://linuxstep.wordpress.com/step-by-step-install-mailscanner-solution/)
+* [Install SpamAssassin on BlueQuartz](http://labs.erweb.it/pub/installing_spamassassin.php)

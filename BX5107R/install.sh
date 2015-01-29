@@ -5,6 +5,9 @@
 # (c) Team BlueOnyx 2009-2011
 # http://www.blueonyx.it
 # Date: Fri 15 Jul 2011 04:26:59 PM PDT
+# Modification Author: Ap. Muthu
+# http://www.apmuthu/com/openbqbo
+# Date: Th 29 Jan 2015 23:00:00 IST
 #######################################
 
 ## Check permission
@@ -250,6 +253,8 @@ fi
 
 # Install the groups "core", "base" and "BlueOnyx", which should get everything we need:
 /usr/bin/yum -y groupinstall core base BlueOnyx
+
+mkdir -p /etc/httpd/conf/vhosts
 
 # Raid:
 # If RAID is NOT present, we remove the RAID related RPMs that came aboard during the groupinstall:

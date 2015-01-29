@@ -253,6 +253,12 @@ fi
 # Install the groups "core", "base" and "BlueOnyx", which should get everything we need:
 /usr/bin/yum -y groupinstall core base BlueOnyx
 
+mkdir -p /etc/httpd/conf/vhosts
+
+if ! [ -h /usr/lib/php ];then
+        ln -s /usr/lib64/php /usr/lib/php
+fi
+
 # Raid:
 # If RAID is NOT present, we remove the RAID related RPMs that came aboard during the groupinstall:
 MD=`/bin/cat /proc/mdstat | /bin/grep ^md | /usr/bin/wc -l`
@@ -293,11 +299,6 @@ rpm -hUv --force --nodeps $RPM_PATH/blueonyx-cd-installer-*.rpm
 echo
 echo "[Phase 7 : Cleaning up ...]"
 echo
-
-mkdir -p /etc/httpd/conf/vhosts
-if ![ -h /usr/lib/php ]; then
-    ln -s /usr/lib64/php /usr/lib/php
-fi
 
 # Post install scripts:
 echo
