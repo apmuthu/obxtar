@@ -4,7 +4,9 @@
 # Author: Michael Stauber
 # (c) Team BlueOnyx 2009-2012
 # http://www.blueonyx.it
-# Date: Mo 12 Nov 2012 14:23:13 EST
+# Modification Author: Ap. Muthu
+# http://www.apmuthu/com/openbqbo
+# Date: Th 29 Jan 2015 23:00:00 IST
 #######################################
 
 ## Check permission
@@ -149,26 +151,26 @@ echo
 
 if [ -f /etc/redhat-release ] && [ "`rpm -q --qf=%{version} centos-release`" = "6" ]; then 
   if [ "`rpm -q --qf=%{arch} centos-release`" = "i686" ]; then 
-	PLTF='5107'; 
+	PLTF='5207'; 
   fi 
   if [ "`rpm -q --qf=%{arch} centos-release`" = "x86_64" ]; then 
-	PLTF='5108'; 
+	PLTF='5208'; 
   fi 
 fi 
 if [ -f /etc/redhat-release ] && [ "`rpm -q --qf=%{version} sl-release|cut -d \. -f1`" = "6" ]; then 
   if [ "`rpm -q --qf=%{arch} sl-release`" = "i686" ]; then 
-	PLTF='5107'; 
+	PLTF='5207'; 
   fi 
   if [ "`rpm -q --qf=%{arch} sl-release`" = "x86_64" ]; then 
-	PLTF='5108'; 
+	PLTF='5208'; 
   fi 
 fi 
 if [ -f /etc/redhat-release ] && [ "`rpm -q --qf=%{version} redhat-release|cut -d \. -f1`" = "6" ]; then 
   if [ "`rpm -q --qf=%{arch} redhat-release`" = "i686" ]; then 
-	PLTF='5107'; 
+	PLTF='5207'; 
   fi 
   if [ "`rpm -q --qf=%{arch} redhat-release`" = "x86_64" ]; then 
-	PLTF='5108'; 
+	PLTF='5208'; 
   fi 
 fi; 
 

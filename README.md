@@ -3,7 +3,7 @@
 * Any modifications to these scripts will be in appropriate folders
 * These changes are not in any way supported or endorsed by the official BlueQuartz or BlueOnyx teams
 * Use content and code here at your own risk
-* BX 520x series is not supported currently as the new theme relies on CodeIgniter - too slow, too heavy.
+* BX 520x series is experimental currently as the new theme relies on CodeIgniter - too slow, too heavy.
 
 ## Versions
 ### BQ5102R
@@ -30,6 +30,13 @@ RewriteRule .? http://%{SERVER_NAME}/ [R=302,L]
 * Based on CentOS 6.x / Scientific Linux 6 / RHEL 6
 * 64 bit
 
+### BX5108R / PHP 5.3.3 (Experimental)
+* Based on CentOS 6.x / Scientific Linux 6 / RHEL 6
+* 64 bit
+* Admserv runs on Chorizo theme
+* Chorizo is based on CodeIgniter
+* [Upgrading to BX5208R](https://www.virtbiz.com/support/index.php?/Knowledgebase/Article/View/125/3/upgrade-to-blueonyx-5208r)
+
 ## Notes
 * All tar files here contain an install.sh file that needs to be executed in a minimal CentOS (or SL or RHEL) install of appropriate version listed above
 * All installs can be done on physical machines or OpenVZ containers
@@ -41,4 +48,4 @@ RewriteRule .? http://%{SERVER_NAME}/ [R=302,L]
 * [Installing a VPS from a BlueOnyx Template](http://www.blog.paranoidpenguin.net/2011/11/installing-a-blueonyx-openvz-template-with-proxmox-ve/)
 * [French Wiki Page on BlueOnyx Install](http://wiki.kogite.fr/index.php/Proxmox_Openvz)
 * [Forum Post on BX Installation](http://permalink.gmane.org/gmane.linux.devices.blueonyx.user/8957)
-* [Upgrading to BX520.R](https://www.virtbiz.com/support/index.php?/Knowledgebase/Article/View/125/3/upgrade-to-blueonyx-5208r)
+
