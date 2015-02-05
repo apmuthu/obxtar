@@ -39,8 +39,8 @@ RewriteRule .? http://%{SERVER_NAME}/ [R=302,L]
 
 ## Notes
 * All tar files here contain an install.sh file that needs to be executed in a minimal CentOS (or SL or RHEL) install of appropriate version listed above
-* All installs can be done on physical machines or OpenVZ containers
-* All initial "root" passwords should be "blueonyx"
+* Installs can be done on physical machines or OpenVZ containers
+* Initial "root" password should be "blueonyx"
 
 ## References
 * [TAR Files](http://blueonyx.precisionweb.net/BlueOnyx/TAR/) | [ISO Files](http://blueonyx.precisionweb.net/BlueOnyx/ISO/)

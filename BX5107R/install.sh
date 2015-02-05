@@ -2,12 +2,12 @@
 
 #######################################
 # Author: Michael Stauber
-# (c) Team BlueOnyx 2009-2011
+# (c) Team BlueOnyx 2009-2014
 # http://www.blueonyx.it
-# Date: Fri 15 Jul 2011 04:26:59 PM PDT
+# Date: Fri 15 Jul 2014 04:26:59 PM PDT
 # Modification Author: Ap. Muthu
 # http://www.apmuthu/com/openbqbo
-# Date: Th 29 Jan 2015 23:00:00 IST
+# Date: Th 05 Feb 2015 10:48:00 IST
 #######################################
 
 ## Check permission
@@ -222,16 +222,16 @@ echo
 RPM_PATH=`pwd`/RPMS
 VZRPM_PATH=`pwd`/RPMS.vz
 
-rpm -hUv $RPM_PATH/blueonyx-yumconf-2.0.0-3.i386.rpm
-rpm -hUv $RPM_PATH/solarspeed-blueonyx-repo-1.0.0-SOL3.i386.rpm
+rpm -hUv $RPM_PATH/blueonyx-yumconf-*.rpm
+rpm -hUv $RPM_PATH/solarspeed-blueonyx-repo-*.rpm
 
 # If we're in an OpenVZ VPS (and *only* then!), we need the virtual 5106R YUM repository file as well:
 if [ -e "/proc/user_beancounters" ];then
-	rpm -hUv $VZRPM_PATH/solarspeed-virtual-5107R-repo-1.0.4-SOL1.i386.rpm
+	rpm -hUv $VZRPM_PATH/solarspeed-virtual-5107R-repo-*.rpm
 	# And we also install the VZ RPMs:
 	rpm -hUv --force --nodeps $VZRPM_PATH/vzdev-1.0-7.swsoft.noarch.rpm
 	rpm -hUv --force --nodeps $VZRPM_PATH/vzdummy-init-fc13-1.0-1.noarch.rpm
-	rpm -hUv --force --nodeps $VZRPM_PATH/vzdummy-kernel-el6-2.6.32-SOL1.i386.rpm
+	rpm -hUv --force --nodeps $VZRPM_PATH/vzdummy-kernel-*.rpm
 	/bin/rm -f /etc/rc3.d/S80fix_grub
 fi
 
@@ -291,7 +291,7 @@ for S in $ON_SERVICES; do
 done
 
 # Install CD-Installer RPM:
-rpm -hUv --force --nodeps $RPM_PATH/blueonyx-cd-installer-6.0-20110715.i386.rpm
+rpm -hUv --force --nodeps $RPM_PATH/blueonyx-cd-installer-*.rpm
 
 echo
 echo "[Phase 7 : Cleaning up ...]"
