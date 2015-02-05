@@ -17,6 +17,9 @@ RewriteEngine On
 RewriteCond %{HTTP:Range} bytes=0-.* [NC]
 RewriteRule .? http://%{SERVER_NAME}/ [R=302,L]
 ````
+### BQ5100R / PHP 4
+* Based on centOS 4 by Hisao Shibuya
+* 32 bit
 
 ### BX5106R / PHP 5.1.6
 * Based on CentOS 5.8 (will upgrade to CentOS v5.10)
