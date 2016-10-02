@@ -43,10 +43,10 @@ ln -s ../../../../etc/squirrelmail/config.php
 
 # OpenWebMail
 
-[Installing OpenWebmail on BlueOnyx server](http://coding.infoconex.com/post/2011/10/10/Installing-OpenWebmail-on-BlueOnyx-server)
-[How to set up OpenWebMail in CentOS](http://xmodulo.com/open-webmail-centos.html)
-[OpenWebMail RedHat HOWTO](https://openwebmail.org/openwebmail/download/redhat/howto/00-openwebmail.html)
-[OpenWebMail CentOS HOWTO](http://openwebmail.lagmonster.org/download/centos/el6/00.readme.txt)
-[OpenWebMail RedHat Install](http://openwebmail.org/openwebmail/download/redhat/howto/00-openwebmail.html)
+* [Installing OpenWebmail on BlueOnyx server](http://coding.infoconex.com/post/2011/10/10/Installing-OpenWebmail-on-BlueOnyx-server)
+* [How to set up OpenWebMail in CentOS](http://xmodulo.com/open-webmail-centos.html)
+* [OpenWebMail RedHat HOWTO](https://openwebmail.org/openwebmail/download/redhat/howto/00-openwebmail.html)
+* [OpenWebMail CentOS HOWTO](http://openwebmail.lagmonster.org/download/centos/el6/00.readme.txt)
+* [OpenWebMail RedHat Install](http://openwebmail.org/openwebmail/download/redhat/howto/00-openwebmail.html)
 
 # RoundCube Mail
